@@ -1,0 +1,12 @@
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/bin/Debug/net6.0/ClassLibrary.deps.json
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/bin/Debug/net6.0/ClassLibrary.dll
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/bin/Debug/net6.0/ClassLibrary.pdb
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.csproj.AssemblyReference.cache
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.AssemblyInfoInputs.cache
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.AssemblyInfo.cs
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.csproj.CoreCompileInputs.cache
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.dll
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/refint/ClassLibrary.dll
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ClassLibrary.pdb
+/Users/chrismerritt/Projects/TestApp2/ClassLibrary/obj/Debug/net6.0/ref/ClassLibrary.dll
