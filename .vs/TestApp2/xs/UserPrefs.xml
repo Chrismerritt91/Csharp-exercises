@@ -6,27 +6,20 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TestApp2/Program.cs">
     <Files>
-      <File FileName="TestApp2/Program.cs" Line="173" Column="27" />
-      <File FileName="Class Library/Class1.cs" Line="8" Column="1" />
+      <File FileName="TestApp2/Program.cs" Line="175" Column="9" />
+      <File FileName="ClassLibrary/Class1.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestApp2" expanded="True">
-            <Node name="Class Library" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-            </Node>
-            <Node name="TestApp2" expanded="True" selected="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="ProjectDependencies" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="ClassLibrary" expanded="True" />
+            <Node name="TestApp2" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ClassLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

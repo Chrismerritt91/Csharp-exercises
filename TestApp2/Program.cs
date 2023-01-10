@@ -172,7 +172,7 @@ class Sample
         //Customer c1, c2;
 
         //c1 = new Customer();
-        //c2 = new Customer();
+        
 
     }
 
