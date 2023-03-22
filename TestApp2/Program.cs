@@ -173,7 +173,8 @@ class Sample
 
         //c1 = new Customer();
 
-        //------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------
+        //section 5
 
         //experimenting with fields creating product objects
 
@@ -182,8 +183,11 @@ class Sample
 
         //create objects
         product1 = new Product();
+        Product.TotalNoProducts++;
         product2 = new Product();
+        Product.TotalNoProducts++;
         product3 = new Product();
+        Product.TotalNoProducts++;
 
         //initialize fields
         product1.productId = 1001;
@@ -201,22 +205,28 @@ class Sample
 
         //Get values from field
         Console.WriteLine("Product 1:");
-        Console.WriteLine("Product ID:" + product1.productId);
-        Console.WriteLine("Product Name:" + product1.productName);
-        Console.WriteLine("Product Cost:" + product1.cost);
-        Console.WriteLine("Product Quantity" + product1.quantitiyInStock);
+        Console.WriteLine("Product ID: " + product1.productId);
+        Console.WriteLine("Product Name: " + product1.productName);
+        Console.WriteLine("Product Cost: " + product1.cost);
+        Console.WriteLine("Product Quantity: " + product1.quantitiyInStock);
 
         Console.WriteLine("\nProduct 2:");
-        Console.WriteLine("Product ID:" + product2.productId);
-        Console.WriteLine("Product Name:" + product2.productName);
-        Console.WriteLine("Product Cost:" + product2.cost);
-        Console.WriteLine("Product Quantity" + product2.quantitiyInStock);
+        Console.WriteLine("Product ID: " + product2.productId);
+        Console.WriteLine("Product Name: " + product2.productName);
+        Console.WriteLine("Product Cost: " + product2.cost);
+        Console.WriteLine("Product Quantity: " + product2.quantitiyInStock);
 
         Console.WriteLine("\nProduct 3:");
-        Console.WriteLine("Product ID:" + product3.productId);
-        Console.WriteLine("Product Name:" + product3.productName);
-        Console.WriteLine("Product Cost:" + product3.cost);
-        Console.WriteLine("Product Quantity" + product3.quantitiyInStock);
+        Console.WriteLine("Product ID: " + product3.productId);
+        Console.WriteLine("Product Name: " + product3.productName);
+        Console.WriteLine("Product Cost: " + product3.cost);
+        Console.WriteLine("Product Quantity: " + product3.quantitiyInStock);
+
+        int totalQuantity = product1.quantitiyInStock + product2.quantitiyInStock + product3.quantitiyInStock;
+
+        Console.WriteLine("\nTotal Quantity: " + totalQuantity);
+
+        Console.WriteLine("\nTotal Number of Products: " + Product.TotalNoProducts);
 
         System.Console.ReadKey();
         
