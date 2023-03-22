@@ -178,6 +178,9 @@ class Sample
 
         //experimenting with fields creating product objects
 
+        //Local constant
+        const string developerName = "Chris";
+
         //create reference variables
         Product product1, product2, product3;
 
@@ -204,29 +207,35 @@ class Sample
         product3.quantitiyInStock = 800;
 
         //Get values from field
-        Console.WriteLine("Product 1:");
+        Console.WriteLine("Created by: " + developerName);
+
+        Console.WriteLine("\nProduct 1:");
         Console.WriteLine("Product ID: " + product1.productId);
         Console.WriteLine("Product Name: " + product1.productName);
         Console.WriteLine("Product Cost: " + product1.cost);
         Console.WriteLine("Product Quantity: " + product1.quantitiyInStock);
+        Console.WriteLine("Date of Purchase: " + product1.dateOfPurchase);
 
         Console.WriteLine("\nProduct 2:");
         Console.WriteLine("Product ID: " + product2.productId);
         Console.WriteLine("Product Name: " + product2.productName);
         Console.WriteLine("Product Cost: " + product2.cost);
         Console.WriteLine("Product Quantity: " + product2.quantitiyInStock);
+        Console.WriteLine("Date of Purchase: " + product2.dateOfPurchase);
 
         Console.WriteLine("\nProduct 3:");
         Console.WriteLine("Product ID: " + product3.productId);
         Console.WriteLine("Product Name: " + product3.productName);
         Console.WriteLine("Product Cost: " + product3.cost);
         Console.WriteLine("Product Quantity: " + product3.quantitiyInStock);
+        Console.WriteLine("Date of Purchase: " + product3.dateOfPurchase);
 
         int totalQuantity = product1.quantitiyInStock + product2.quantitiyInStock + product3.quantitiyInStock;
 
         Console.WriteLine("\nTotal Quantity: " + totalQuantity);
 
         Console.WriteLine("\nTotal Number of Products: " + Product.TotalNoProducts);
+        Console.WriteLine("\nCategory of Products: " + Product.CategoryName);
 
         System.Console.ReadKey();
         
